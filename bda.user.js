@@ -1,12 +1,13 @@
 ﻿﻿// ==UserScript==
-// @name         Better Dynamo Administration
-// @namespace    BetterDynAdmin
+// @name         Better Dynamo Administration (Portuguese)
+// @namespace    BetterDynAdminPtBR
 // @include      */dyn/admin/*
-// @author       Jean-Charles Manoury
+// @author       Gerson Groth
+// @contributor  Jean-Charles Manoury
 // @contributor  Benjamin Descamps
 // @contributor  Joël Trousset
-// @homepageURL  https://github.com/jc7447/BetterDynAdmin
-// @supportURL   https://github.com/jc7447/BetterDynAdmin/issues
+// @homepageURL  https://github.com/gersongroth/BetterDynAdmin
+// @supportURL   https://github.com/gersongroth/BetterDynAdmin/issues
 // @description  Refreshing ATG Dyn Admin
 // @grant GM_getResourceText
 // @grant GM_getResourceURL
@@ -135,7 +136,7 @@ function injectCss()
 jQuery(document).ready(function() {
   (function($) {
     var BDA = {
-      componentBrowserPageSelector : "h1:contains('Component Browser')",
+      componentBrowserPageSelector : "h1:contains('Navegador do Componente')",
       logoSelector : "div#oracleATGbrand",
       oldDynamoAltSelector : ["Dynamo Component Browser", "Dynamo Administration", "Performance Monitor", "Dynamo Batch Compiler", "Dynamo Configuration", "JDBC Browser"],
       isOldDynamo : false,

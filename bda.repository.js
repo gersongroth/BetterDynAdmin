@@ -46,13 +46,13 @@
     MAP_SEPARATOR: "=",
     LIST_SEPARATOR: ",",
     descriptorTableSelector: "table:eq(0)",
-    repositoryViewSelector: "h2:contains('Examine the Repository, Control Debugging')",
+    repositoryViewSelector: "h2:contains('Examinar o Repositório, Controlar Depuração')",
     cacheUsageSelector: "h2:contains('Cache usage statistics')",
-    propertiesSelector: "h1:contains('Properties')",
-    eventSetsSelector: "h1:contains('Event Sets')",
-    methodsSelector: "h1:contains('Methods')",
-    resultsSelector: "h2:contains('Results:')",
-    errorsSelector1: "p:contains('Errors:')",
+    propertiesSelector: "h1:contains('Propriedades')",
+    eventSetsSelector: "h1:contains('Conjuntos de Eventos')",
+    methodsSelector: "h1:contains('Métodos')",
+    resultsSelector: "h2:contains('Resultados:')",
+    errorsSelector1: "p:contains('Erros:')",
     errorsSelector2: "code:contains('*** Query:')",
     defaultItemByTab: "10",
     nbItemReceived: 0,
@@ -134,7 +134,7 @@
     },
 
     isRepositoryPageFct: function() {
-      return $("h2:contains('Run XML Operation Tags on the Repository')").length > 0;
+      return $("h2:contains('Executar Identificadores de Operação de XML no Repositório')").length > 0;
     },
 
     setupRepositoryPage: function() {
