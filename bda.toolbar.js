@@ -365,7 +365,7 @@
             methodsList.empty();
             varsList.empty();
 
-            var tableMethods = $('h1:contains("Methods")').next();
+            var tableMethods = $('h1:contains("Métodos")').next();
             tableMethods.find('tr').each(function(index, element) {
               if (index > 0)
               {
@@ -386,7 +386,7 @@
               });
             }
 
-            var tablevars = $('h1:contains("Properties")').next();
+            var tablevars = $('h1:contains("Propriedades")').next();
             tablevars.find('tr').each(function(index, element){
               if (index > 0)
               {

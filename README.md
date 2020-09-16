@@ -181,6 +181,7 @@ Main features
 
 Contributors
 ---
+ * Gerson Groth ([@gersongroth](https://github.com/gersongroth))
  * Jean-Charles Manoury ([@jc7447](https://github.com/jc7447))
  * Benjamin Descamps ([@onewingedfallen59](https://github.com/onewingedfallen59))
  * Joël Trousset ([@troussej](https://github.com/troussej))

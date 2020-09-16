@@ -6,7 +6,7 @@ Utility library to access component properties
 
 BDA_COMPONENT = {
 
-  propertiesSelector: 'h1:contains("Properties")',
+  propertiesSelector: 'h1:contains("Propriedades")',
   setProperty: function(domain, component, property, value, callback, errCallback) {
     if (isNull(domain)) {
       domain = "";
